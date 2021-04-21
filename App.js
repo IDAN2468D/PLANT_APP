@@ -16,7 +16,7 @@ export default function App() {
       <StatusBar style="dark-content" backgroundColor={COLORS.white} />
       <Stack.Navigator screenOptions={{ header: () => null }}>
         <Stack.Screen name="HomeScreen" component={HomeScreen} />
-        <Stack.Screen name="Detals" component={DetalsScreen} />
+        <Stack.Screen name="Details" component={DetalsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
